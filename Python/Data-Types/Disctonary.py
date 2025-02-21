@@ -19,3 +19,8 @@ customer['phone'] = 9998887776
 print(customer)
 
 print(list(marvel_dict.keys()))
+
+new_dict = customer.copy()
+print(new_dict)
+customer.clear()
+print(customer)
